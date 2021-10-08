@@ -34,8 +34,6 @@ function start (font, texture) {
     flipY: texture.flipY
   })
 
-  // geom.setAttribute('line', new Float32Array(lineData));
-
   var material = new THREE.RawShaderMaterial({
     vertexShader: glslify(__dirname + '/shaders/fx.vert'),
     fragmentShader: glslify(__dirname + '/shaders/fx.frag'),
