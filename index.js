@@ -81,6 +81,14 @@ class TextGeometry extends THREE.BufferGeometry {
       var pages = vertices.pages(glyphs)
       this.setAttribute('page', new THREE.BufferAttribute(pages, 1))
     }
+
+    // recompute bounding box and sphere, if present
+    if (this.boundingBox !== null) {
+      this.computeBoundingBox();
+    }
+    if (this.boundingSphere !== null) {
+      this.computeBoundingSphere();
+    }
   }
 
   computeBoundingSphere() {
