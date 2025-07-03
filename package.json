@@ -15,12 +15,11 @@
     ]
   },
   "dependencies": {
-    "array-shuffle": "^1.0.1",
     "layout-bmfont-text": "^1.2.0",
-    "nice-color-palettes": "^3.0.0",
     "quad-indices": "^2.0.1"
   },
   "devDependencies": {
+    "array-shuffle": "^1.0.1",
     "bluebird": "^3.7.2",
     "browserify": "^16.5.1",
     "budo": "^11.6.3",
@@ -28,6 +27,7 @@
     "glsl-noise": "0.0.0",
     "glslify": "^7.0.0",
     "load-bmfont": "^1.0.0",
+    "nice-color-palettes": "^4.0.0",
     "standard": "^16.0.4",
     "sun-tzu-quotes": "^1.0.0",
     "three": "^0.131.1",
