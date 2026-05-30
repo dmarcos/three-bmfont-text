@@ -15,8 +15,10 @@
     ]
   },
   "dependencies": {
-    "layout-bmfont-text": "^1.2.0",
-    "quad-indices": "^2.0.1"
+    "as-number": "^1.0.0",
+    "quad-indices": "^2.0.1",
+    "word-wrapper": "^1.0.7",
+    "xtend": "^4.0.0"
   },
   "devDependencies": {
     "array-shuffle": "^1.0.1",
